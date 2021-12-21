@@ -1,27 +1,15 @@
 import { ResponsiveBar } from '@nivo/bar'
 
-const Bar = ({ data /* see data tab */ }) => (
+const Bar = ({ data }) => (
     <ResponsiveBar
         data={data}
-        tooltip={({ id, value, color }) => (
-            <div
-                style={{
-                    padding: 12,
-                    color,
-                    background: '#222222',
-                }}
-            >
-                    {id}: {value}
-
-            </div>
-        )}
-        keys={[ 'hot dog', 'burger', 'sandwich', 'kebab', 'fries', 'donut' ]}
+        keys={['hot dog', 'burger', 'sandwich', 'kebab', 'fries', 'donut']}
         indexBy="country"
         margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
         padding={0.3}
         valueScale={{ type: 'linear' }}
         indexScale={{ type: 'band', round: true }}
-        colors={{ scheme: 'purpleRed_green' }}
+        colors={{ scheme: 'purple_blue' }}
         defs={[
             {
                 id: 'dots',
@@ -56,7 +44,7 @@ const Bar = ({ data /* see data tab */ }) => (
                 id: 'lines'
             }
         ]}
-        borderColor={{ from: 'color', modifiers: [ [ 'darker', 1.6 ] ] }}
+        borderColor={{ from: 'color', modifiers: [['darker', 1.6]] }}
         axisTop={null}
         axisRight={null}
         axisBottom={{
@@ -77,7 +65,7 @@ const Bar = ({ data /* see data tab */ }) => (
         }}
         labelSkipWidth={12}
         labelSkipHeight={12}
-        labelTextColor={{ from: 'color', modifiers: [ [ 'darker', 1.6 ] ] }}
+        labelTextColor={{ from: 'color', modifiers: [['darker', 1.6]] }}
         legends={[
             {
                 dataFrom: 'keys',

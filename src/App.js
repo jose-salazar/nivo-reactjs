@@ -10,23 +10,23 @@ import pie_data from './data/pie_data'
 import line_data from './data/line_data'
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header" style={{height: 25, background: '#bebebe'}}>
-          <Bar data={bar_data} />
-        </header>
-        <header className="App-header" style={{height: 25}}>
+        render() {
+                return (
+                        <div className="App">
 
-          <Pie data={pie_data} />
-        </header>  
-        <header className="App-header" style={{height: 25}}>
-          Line
-          <Line data={line_data} />
-        </header>        
-      </div>
-    );
-  }
+                                <div class="wrapper">
+                                        <Bar data={bar_data} />
+                                        <Pie data={pie_data} />
+                                        <Bar data={bar_data} />
+                                        <Pie data={pie_data} />
+                                        <Line data={line_data} />
+                                        <Bar data={bar_data} />
+                                </div>
+                        </div>
+
+
+                );
+        }
 }
 
 export default App;
