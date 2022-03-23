@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "http://jose-salazar.github.io/nivo-reactjs/static/css/main.ca2ac409.chunk.css",
+    "main.js": "http://jose-salazar.github.io/nivo-reactjs/static/js/main.3ab2f5b1.chunk.js",
+    "main.js.map": "http://jose-salazar.github.io/nivo-reactjs/static/js/main.3ab2f5b1.chunk.js.map",
+    "runtime-main.js": "http://jose-salazar.github.io/nivo-reactjs/static/js/runtime-main.c979e8a9.js",
+    "runtime-main.js.map": "http://jose-salazar.github.io/nivo-reactjs/static/js/runtime-main.c979e8a9.js.map",
+    "static/js/2.f5ce1659.chunk.js": "http://jose-salazar.github.io/nivo-reactjs/static/js/2.f5ce1659.chunk.js",
+    "static/js/2.f5ce1659.chunk.js.map": "http://jose-salazar.github.io/nivo-reactjs/static/js/2.f5ce1659.chunk.js.map",
+    "static/js/3.e8be9df7.chunk.js": "http://jose-salazar.github.io/nivo-reactjs/static/js/3.e8be9df7.chunk.js",
+    "static/js/3.e8be9df7.chunk.js.map": "http://jose-salazar.github.io/nivo-reactjs/static/js/3.e8be9df7.chunk.js.map",
+    "index.html": "http://jose-salazar.github.io/nivo-reactjs/index.html",
+    "static/css/main.ca2ac409.chunk.css.map": "http://jose-salazar.github.io/nivo-reactjs/static/css/main.ca2ac409.chunk.css.map",
+    "static/js/2.f5ce1659.chunk.js.LICENSE.txt": "http://jose-salazar.github.io/nivo-reactjs/static/js/2.f5ce1659.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c979e8a9.js",
+    "static/js/2.f5ce1659.chunk.js",
+    "static/css/main.ca2ac409.chunk.css",
+    "static/js/main.3ab2f5b1.chunk.js"
+  ]
+}
